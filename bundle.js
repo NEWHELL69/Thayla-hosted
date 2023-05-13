@@ -10,19 +10,21 @@
     })
 })();         
 
-(function(){
-    const dropdowns = document.querySelectorAll(".menu details");
+// (function(){
+//     const dropdowns = document.querySelectorAll(".menu details");
 
-    dropdowns.forEach((dropdown) => {
-        dropdown.addEventListener("mouseenter", () => {
-            dropdown.setAttribute("open", "");
-        });
+//     dropdowns.forEach((dropdown) => {
+//         dropdown.addEventListener("mouseenter", () => {
+//             console.log("open" + dropdown.querySelector(".title__link").textContent);
+//             dropdown.setAttribute("open", "");
+//         });
 
-        dropdown.addEventListener("mouseleave", () => {
-            dropdown.removeAttribute("open");
-        });
-    })
-})();           
+//         dropdown.addEventListener("mouseleave", () => {
+//             console.log("close" + dropdown.querySelector(".title__link").textContent);
+//             dropdown.removeAttribute("open");
+//         });
+//     })
+// })();           
 (function () {
     let frameNumber = 1;
     
